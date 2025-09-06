@@ -1,0 +1,17 @@
+def square(n):
+    """Print the square of even numbers between 0 and 10"""
+    output = []
+    for i in range(0,n+1):
+        if (i%2 == 0):
+            output.append(i**2)
+    print(output)
+
+
+def mapToDictionnary(word):
+    output = {x:ord(x) for x in word}
+    print(output)
+
+square(10)
+mapToDictionnary("Python")
+
+    
